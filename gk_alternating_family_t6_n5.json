@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "timestamp_utc": "2026-11-20T18:52:16.134379Z",
+    "data_source": "gk_alternating_family.py (teste LP C2.3)",
+    "seed": 20261119,
+    "n": 5,
+    "t": 6,
+    "samples": 4,
+    "m_range": [
+      10,
+      14
+    ],
+    "csv": "gk_alternating_family_t6_n5.csv",
+    "csv_sha256": "0db09e9243072f170afa3d73cd1451bd110d0f188e83e5aa036b6398bd113d4a"
+  },
+  "T1_alternancia": {
+    "ok": 4,
+    "fail": 0,
+    "rate": 1.0
+  },
+  "T2_uniao_mistas": {
+    "instancias_com_mistas": 0,
+    "total": 4,
+    "adicoes": 1694,
+    "mistas": 0
+  },
+  "T3_controle_lado_sozinho": {
+    "com_mistas": 0,
+    "total": 4
+  },
+  "leitura_criterio_LP": "Se T2 > 0: provas de solver da uniao NAO sao linha-puras. Pelo Teorema de Necessidade (C2_r2... doc): para γ insat dificil, pi linha-pura poli NAO existe -> criterio-LP responde MISTO -> RETRACAO desta via para a rota negativa; sobra C2.2 (promessa fraca), permanece (C).",
+  "rows": [
+    {
+      "i": 0,
+      "m": 13,
+      "gamma": "SAT",
+      "ref_t": "UNSAT",
+      "alternating": true,
+      "union": "UNSAT",
+      "union_adds": 245,
+      "union_mixed": 0,
+      "side_adds": 24833,
+      "side_mixed": 0
+    },
+    {
+      "i": 1,
+      "m": 14,
+      "gamma": "SAT",
+      "ref_t": "UNSAT",
+      "alternating": true,
+      "union": "UNSAT",
+      "union_adds": 483,
+      "union_mixed": 0,
+      "side_adds": 24711,
+      "side_mixed": 0
+    },
+    {
+      "i": 2,
+      "m": 10,
+      "gamma": "SAT",
+      "ref_t": "UNSAT",
+      "alternating": true,
+      "union": "UNSAT",
+      "union_adds": 484,
+      "union_mixed": 0,
+      "side_adds": 25073,
+      "side_mixed": 0
+    },
+    {
+      "i": 3,
+      "m": 10,
+      "gamma": "SAT",
+      "ref_t": "UNSAT",
+      "alternating": true,
+      "union": "UNSAT",
+      "union_adds": 482,
+      "union_mixed": 0,
+      "side_adds": 25061,
+      "side_mixed": 0
+    }
+  ]
+}

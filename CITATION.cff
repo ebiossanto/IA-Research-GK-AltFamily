@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "gk_alternating_family — codificacao REF_t e criterio-LP"
+message: "Se você usar esta ferramenta, cite o repositório-mãe e este software."
+type: software
+authors:
+  - family-names: "Soares dos Santos"
+    given-names: "Euzébio"
+    role: author
+license: MIT
+repository-code: "https://github.com/ebiossanto/IA-Research-GK-AltFamily"
+url: "https://github.com/ebiossanto/IA-Research-GK-AltFamily"
+abstract: "Núcleo: frente **C2.3** do projeto — teste do critério-LP e do Teorema Nec da família alternante (decisão sobre a rota negativa)."
+keywords: ["proof-complexity", "bounded-arithmetic", "goedel", "krajicek",
+  "formal-methods", "reproducible-research"]
+preferred-citation:
+  type: software
+  title: "gk_alternating_family — codificacao REF_t e criterio-LP"
+  author:
+    - family-names: "Soares dos Santos"
+      given-names: "Euzébio"
+  year: 2026
+  url: "https://github.com/ebiossanto/IA-Research-GK-AltFamily"
+  notes: "Extraido do repositorio IA-research-Godel-e-Krajicek (MIT)."

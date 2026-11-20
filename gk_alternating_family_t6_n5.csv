@@ -1,0 +1,5 @@
+i,m,gamma,ref_t,alternating,union,union_adds,union_mixed,side_adds,side_mixed
+0,13,SAT,UNSAT,True,UNSAT,245,0,24833,0
+1,14,SAT,UNSAT,True,UNSAT,483,0,24711,0
+2,10,SAT,UNSAT,True,UNSAT,484,0,25073,0
+3,10,SAT,UNSAT,True,UNSAT,482,0,25061,0
